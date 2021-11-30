@@ -3,6 +3,7 @@ import { Document } from 'mongoose';
 
 export type CatDocument = Cat & Document;
 
+//Add DB
 @Schema()
 export class Cat {
   @Prop()
